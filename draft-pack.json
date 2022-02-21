@@ -1,0 +1,2790 @@
+[
+  {
+    "Name": "Rune of Flame",
+    "Weight": ""
+  },
+  {
+    "Name": "Fire Sketch",
+    "Weight": ""
+  },
+  {
+    "Name": "Agile Strike",
+    "Weight": "***"
+  },
+  {
+    "Name": "Blazing Renegade",
+    "Weight": ""
+  },
+  {
+    "Name": "Blitz Stone",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Bloodspear Footsoldier",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Breath of Voprex",
+    "Weight": ""
+  },
+  {
+    "Name": "Centaur Outrider",
+    "Weight": "***"
+  },
+  {
+    "Name": "Char",
+    "Weight": ""
+  },
+  {
+    "Name": "Core Scavenger",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Daring Maneuver",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Detonation Cannon",
+    "Weight": ""
+  },
+  {
+    "Name": "Dusthoof Brawler",
+    "Weight": "***"
+  },
+  {
+    "Name": "Forge Wolf",
+    "Weight": "***"
+  },
+  {
+    "Name": "Grandfather's Axe",
+    "Weight": "***"
+  },
+  {
+    "Name": "Granite Acolyte",
+    "Weight": ""
+  },
+  {
+    "Name": "Heavy Axe",
+    "Weight": "***"
+  },
+  {
+    "Name": "Hellfire Rifle",
+    "Weight": ""
+  },
+  {
+    "Name": "Helpful Doorbot",
+    "Weight": "***"
+  },
+  {
+    "Name": "Iceberg Frontrunner",
+    "Weight": ""
+  },
+  {
+    "Name": "Inoa's Fury",
+    "Weight": "***"
+  },
+  {
+    "Name": "Kaleb's Favor",
+    "Weight": ""
+  },
+  {
+    "Name": "Magma Javelin",
+    "Weight": "***"
+  },
+  {
+    "Name": "Magmatic Sentinel",
+    "Weight": ""
+  },
+  {
+    "Name": "Mercenary Vanguard",
+    "Weight": ""
+  },
+  {
+    "Name": "Pyre Adept",
+    "Weight": ""
+  },
+  {
+    "Name": "Pyre Elemental",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Rally",
+    "Weight": ""
+  },
+  {
+    "Name": "Rampage",
+    "Weight": ""
+  },
+  {
+    "Name": "Rampaging Commando",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Rebel Sharpshooter",
+    "Weight": "***"
+  },
+  {
+    "Name": "Recogulator",
+    "Weight": ""
+  },
+  {
+    "Name": "Ruin",
+    "Weight": ""
+  },
+  {
+    "Name": "Sentinel Sifter",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Smith's Hammer",
+    "Weight": "***"
+  },
+  {
+    "Name": "Sol's Fury",
+    "Weight": ""
+  },
+  {
+    "Name": "Spearfrenzy Warrior",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Spiny Grenadin",
+    "Weight": ""
+  },
+  {
+    "Name": "Spitfire",
+    "Weight": ""
+  },
+  {
+    "Name": "Thunderhoof Warrior",
+    "Weight": ""
+  },
+  {
+    "Name": "Ticking Grenadin",
+    "Weight": ""
+  },
+  {
+    "Name": "Torch",
+    "Weight": "***"
+  },
+  {
+    "Name": "Unpredictable Outlaw",
+    "Weight": "***"
+  },
+  {
+    "Name": "Warhorn",
+    "Weight": ""
+  },
+  {
+    "Name": "Young Gun",
+    "Weight": "***"
+  },
+  {
+    "Name": "Callous Triggerman",
+    "Weight": "*"
+  },
+  {
+    "Name": "Doomsday Assembly",
+    "Weight": ""
+  },
+  {
+    "Name": "Gearcruncher",
+    "Weight": ""
+  },
+  {
+    "Name": "Great-Kiln Titan",
+    "Weight": "*"
+  },
+  {
+    "Name": "Hellfire Valkyrie",
+    "Weight": "*"
+  },
+  {
+    "Name": "Kaleb, Claimless",
+    "Weight": "*"
+  },
+  {
+    "Name": "Molten Fist",
+    "Weight": "*"
+  },
+  {
+    "Name": "Pivotal Moment",
+    "Weight": ""
+  },
+  {
+    "Name": "Sindok, Rage Incarnate",
+    "Weight": "*"
+  },
+  {
+    "Name": "Azrog, Streetbreaker",
+    "Weight": ""
+  },
+  {
+    "Name": "Censari Brigand",
+    "Weight": "*"
+  },
+  {
+    "Name": "Coalscrounger",
+    "Weight": ""
+  },
+  {
+    "Name": "D'Angolo Houndmaster",
+    "Weight": ""
+  },
+  {
+    "Name": "Djang-li, the Misfit",
+    "Weight": "*"
+  },
+  {
+    "Name": "Factory Quota",
+    "Weight": "*"
+  },
+  {
+    "Name": "Fire Sale",
+    "Weight": "*"
+  },
+  {
+    "Name": "General Izalio",
+    "Weight": "*"
+  },
+  {
+    "Name": "Kaleb's Sanctum",
+    "Weight": "*"
+  },
+  {
+    "Name": "Kazuo, Melee Virtuoso",
+    "Weight": "*"
+  },
+  {
+    "Name": "Miner's Musket",
+    "Weight": "*"
+  },
+  {
+    "Name": "Parapet Sentry",
+    "Weight": ""
+  },
+  {
+    "Name": "Roar of Defiance",
+    "Weight": ""
+  },
+  {
+    "Name": "Rocketblaster",
+    "Weight": ""
+  },
+  {
+    "Name": "Sanity Scorcher",
+    "Weight": "*"
+  },
+  {
+    "Name": "Shiftstone Processor",
+    "Weight": "*"
+  },
+  {
+    "Name": "Shingane Captain",
+    "Weight": "*"
+  },
+  {
+    "Name": "Steelbound Dragon",
+    "Weight": "*"
+  },
+  {
+    "Name": "Steelfang Chakram",
+    "Weight": ""
+  },
+  {
+    "Name": "Stonesmelt Dragon",
+    "Weight": "*"
+  },
+  {
+    "Name": "Sureshot",
+    "Weight": "*"
+  },
+  {
+    "Name": "Worldpyre Phoenix",
+    "Weight": "*"
+  },
+  {
+    "Name": "Awakened Instigator",
+    "Weight": ""
+  },
+  {
+    "Name": "Centaur Raidleader",
+    "Weight": ""
+  },
+  {
+    "Name": "Challenger's Axe",
+    "Weight": ""
+  },
+  {
+    "Name": "Disassembler",
+    "Weight": ""
+  },
+  {
+    "Name": "Evoker",
+    "Weight": "****"
+  },
+  {
+    "Name": "Firemane Cub",
+    "Weight": "****"
+  },
+  {
+    "Name": "Flash Fire",
+    "Weight": ""
+  },
+  {
+    "Name": "Gilded Flames",
+    "Weight": "**"
+  },
+  {
+    "Name": "Granite Ring",
+    "Weight": "**"
+  },
+  {
+    "Name": "Iceberg Scattershot",
+    "Weight": "****"
+  },
+  {
+    "Name": "Improvised Rubbler",
+    "Weight": "****"
+  },
+  {
+    "Name": "Kaleb's Intervention",
+    "Weight": ""
+  },
+  {
+    "Name": "Last Line Defender",
+    "Weight": "****"
+  },
+  {
+    "Name": "Lava Burst",
+    "Weight": ""
+  },
+  {
+    "Name": "Morningstar",
+    "Weight": ""
+  },
+  {
+    "Name": "Oni Battledriver",
+    "Weight": "**"
+  },
+  {
+    "Name": "Oni Quartermaster",
+    "Weight": "****"
+  },
+  {
+    "Name": "Outlands Sniper",
+    "Weight": ""
+  },
+  {
+    "Name": "Piercing Shot",
+    "Weight": "**"
+  },
+  {
+    "Name": "Raging Jackal",
+    "Weight": "****"
+  },
+  {
+    "Name": "Rebel Illuminator",
+    "Weight": ""
+  },
+  {
+    "Name": "Recycle",
+    "Weight": "**"
+  },
+  {
+    "Name": "Reforge",
+    "Weight": "**"
+  },
+  {
+    "Name": "Refracted Sentinel",
+    "Weight": ""
+  },
+  {
+    "Name": "Retrofitted Sentinel",
+    "Weight": ""
+  },
+  {
+    "Name": "Sentinel Mold",
+    "Weight": "**"
+  },
+  {
+    "Name": "Shingane Forge",
+    "Weight": ""
+  },
+  {
+    "Name": "Soaring Crasher",
+    "Weight": ""
+  },
+  {
+    "Name": "Stonepowder Heretic",
+    "Weight": "**"
+  },
+  {
+    "Name": "Stonescar Maul",
+    "Weight": ""
+  },
+  {
+    "Name": "Touch of Force",
+    "Weight": "****"
+  },
+  {
+    "Name": "Tumblebang",
+    "Weight": "**"
+  },
+  {
+    "Name": "Wildfire Censari",
+    "Weight": "****"
+  },
+  {
+    "Name": "Rune of Relocation",
+    "Weight": ""
+  },
+  {
+    "Name": "Time Sketch",
+    "Weight": ""
+  },
+  {
+    "Name": "Accelerate",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Ageless Sentinel",
+    "Weight": ""
+  },
+  {
+    "Name": "Amaran Archaeologist",
+    "Weight": ""
+  },
+  {
+    "Name": "Amber Acolyte",
+    "Weight": ""
+  },
+  {
+    "Name": "Amber Lock",
+    "Weight": "***"
+  },
+  {
+    "Name": "Apprentice Mage",
+    "Weight": "***"
+  },
+  {
+    "Name": "Araktodon Egg",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Battlewise Elite",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Belching Behemoth",
+    "Weight": ""
+  },
+  {
+    "Name": "Bold Adventurer",
+    "Weight": "***"
+  },
+  {
+    "Name": "Cloaked Guide",
+    "Weight": "***"
+  },
+  {
+    "Name": "Concealed Veteran",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Disjunction",
+    "Weight": ""
+  },
+  {
+    "Name": "Dispel",
+    "Weight": "***"
+  },
+  {
+    "Name": "Dormant Sentinel",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Envelop",
+    "Weight": "***"
+  },
+  {
+    "Name": "Fresh Recruit",
+    "Weight": "***"
+  },
+  {
+    "Name": "Horn of Plenty",
+    "Weight": ""
+  },
+  {
+    "Name": "Horned Vorlunk",
+    "Weight": "***"
+  },
+  {
+    "Name": "Humbug",
+    "Weight": ""
+  },
+  {
+    "Name": "Humbug Nest",
+    "Weight": ""
+  },
+  {
+    "Name": "Infuse with Venom",
+    "Weight": "***"
+  },
+  {
+    "Name": "Nectar Snare Lotus",
+    "Weight": "***"
+  },
+  {
+    "Name": "Nurturing Sentinel",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Oasis Sanctuary",
+    "Weight": "***"
+  },
+  {
+    "Name": "Open Way Supplier",
+    "Weight": ""
+  },
+  {
+    "Name": "Populace Controller",
+    "Weight": ""
+  },
+  {
+    "Name": "Predator's Instinct",
+    "Weight": "***"
+  },
+  {
+    "Name": "Sanctuary Priest",
+    "Weight": "***"
+  },
+  {
+    "Name": "Sandcrawler",
+    "Weight": "***"
+  },
+  {
+    "Name": "Scorpion",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Tactical Expertise",
+    "Weight": ""
+  },
+  {
+    "Name": "Talir's Favored",
+    "Weight": ""
+  },
+  {
+    "Name": "Telekinetic Shackles",
+    "Weight": ""
+  },
+  {
+    "Name": "Teleport",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Towering Terrazon",
+    "Weight": ""
+  },
+  {
+    "Name": "Towertop Patrol",
+    "Weight": "***"
+  },
+  {
+    "Name": "Xenan Guardian",
+    "Weight": ""
+  },
+  {
+    "Name": "Azurite Prixis",
+    "Weight": "*"
+  },
+  {
+    "Name": "Emerging Colossus",
+    "Weight": "*"
+  },
+  {
+    "Name": "Kanya, Ironthorn Envoy",
+    "Weight": ""
+  },
+  {
+    "Name": "Mystic Ascendant",
+    "Weight": "*"
+  },
+  {
+    "Name": "Pit of Lenekta",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ravid, Insect Master",
+    "Weight": ""
+  },
+  {
+    "Name": "Supply Lines",
+    "Weight": "*"
+  },
+  {
+    "Name": "Talir, Timeless",
+    "Weight": "*"
+  },
+  {
+    "Name": "The Last Carnosaur",
+    "Weight": ""
+  },
+  {
+    "Name": "Valiant Guardian",
+    "Weight": ""
+  },
+  {
+    "Name": "Accelerated Impact",
+    "Weight": "*"
+  },
+  {
+    "Name": "Copper Conduit",
+    "Weight": ""
+  },
+  {
+    "Name": "Dashing Scoundrel",
+    "Weight": "*"
+  },
+  {
+    "Name": "Divining Rod",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ephemeral Wisp",
+    "Weight": "*"
+  },
+  {
+    "Name": "Etched Monolith",
+    "Weight": "*"
+  },
+  {
+    "Name": "Etio, Chief Examiner",
+    "Weight": ""
+  },
+  {
+    "Name": "Frontline Healer",
+    "Weight": ""
+  },
+  {
+    "Name": "Glimpse Another Age",
+    "Weight": "*"
+  },
+  {
+    "Name": "Hesitate",
+    "Weight": ""
+  },
+  {
+    "Name": "Insatiable Serasaur",
+    "Weight": "*"
+  },
+  {
+    "Name": "Marisen's Disciple",
+    "Weight": "*"
+  },
+  {
+    "Name": "Meditative Trance",
+    "Weight": "*"
+  },
+  {
+    "Name": "Predatory Carnosaur",
+    "Weight": "*"
+  },
+  {
+    "Name": "Reliquary Raider",
+    "Weight": "*"
+  },
+  {
+    "Name": "Sandstorm Scarf",
+    "Weight": "*"
+  },
+  {
+    "Name": "Steward of Prophecy",
+    "Weight": ""
+  },
+  {
+    "Name": "Thunderfist Striker",
+    "Weight": "*"
+  },
+  {
+    "Name": "Tomb Protector",
+    "Weight": "*"
+  },
+  {
+    "Name": "Vault of the Praxis",
+    "Weight": "*"
+  },
+  {
+    "Name": "Wurmcalling",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ageless Mentor",
+    "Weight": ""
+  },
+  {
+    "Name": "Amber Ring",
+    "Weight": "**"
+  },
+  {
+    "Name": "Ancient Lore",
+    "Weight": ""
+  },
+  {
+    "Name": "Behold the Truth",
+    "Weight": ""
+  },
+  {
+    "Name": "Blurred Stygimoloch",
+    "Weight": ""
+  },
+  {
+    "Name": "Bolster",
+    "Weight": "**"
+  },
+  {
+    "Name": "Bonemask",
+    "Weight": "**"
+  },
+  {
+    "Name": "Borderlands Lookout",
+    "Weight": "**"
+  },
+  {
+    "Name": "Bound by Oath",
+    "Weight": "**"
+  },
+  {
+    "Name": "Confiscate",
+    "Weight": "****"
+  },
+  {
+    "Name": "Conspire",
+    "Weight": ""
+  },
+  {
+    "Name": "Dissociate",
+    "Weight": "**"
+  },
+  {
+    "Name": "Dune Phantom",
+    "Weight": "****"
+  },
+  {
+    "Name": "Entrancer",
+    "Weight": ""
+  },
+  {
+    "Name": "Friendly Wisp",
+    "Weight": ""
+  },
+  {
+    "Name": "Growing Sludge",
+    "Weight": "**"
+  },
+  {
+    "Name": "Healer's Cloak",
+    "Weight": ""
+  },
+  {
+    "Name": "Illuminator",
+    "Weight": ""
+  },
+  {
+    "Name": "Locust",
+    "Weight": ""
+  },
+  {
+    "Name": "Lumen Defender",
+    "Weight": ""
+  },
+  {
+    "Name": "Maveloft Botanist",
+    "Weight": "****"
+  },
+  {
+    "Name": "Oasis Seeker",
+    "Weight": "**"
+  },
+  {
+    "Name": "Pillar of Amar",
+    "Weight": "****"
+  },
+  {
+    "Name": "Praxis Displacer",
+    "Weight": ""
+  },
+  {
+    "Name": "Reset the Day",
+    "Weight": ""
+  },
+  {
+    "Name": "Resolute Monk",
+    "Weight": "****"
+  },
+  {
+    "Name": "Rowhammer",
+    "Weight": "****"
+  },
+  {
+    "Name": "Scorpion Wasp",
+    "Weight": "**"
+  },
+  {
+    "Name": "Secret Pages",
+    "Weight": ""
+  },
+  {
+    "Name": "Silence",
+    "Weight": ""
+  },
+  {
+    "Name": "Sticky Flytrap",
+    "Weight": "****"
+  },
+  {
+    "Name": "Timekeeper",
+    "Weight": ""
+  },
+  {
+    "Name": "Unlock Potential",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rune of Law",
+    "Weight": ""
+  },
+  {
+    "Name": "Justice Sketch",
+    "Weight": ""
+  },
+  {
+    "Name": "Argenport Soldier",
+    "Weight": ""
+  },
+  {
+    "Name": "Auren Brute",
+    "Weight": "***"
+  },
+  {
+    "Name": "Awakening",
+    "Weight": "***"
+  },
+  {
+    "Name": "Brightmace Paladin",
+    "Weight": "***"
+  },
+  {
+    "Name": "Civic Peacekeeper",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Copperhall Marshal",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Copperhall Porter",
+    "Weight": ""
+  },
+  {
+    "Name": "Copperhall Recruit",
+    "Weight": ""
+  },
+  {
+    "Name": "Crownwatch Legionnaire",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Crownwatch Longsword",
+    "Weight": "***"
+  },
+  {
+    "Name": "Detain",
+    "Weight": "***"
+  },
+  {
+    "Name": "Diplomatic Immunity",
+    "Weight": ""
+  },
+  {
+    "Name": "District Infantry",
+    "Weight": "***"
+  },
+  {
+    "Name": "Emerald Acolyte",
+    "Weight": ""
+  },
+  {
+    "Name": "Ensnare",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Fall Short",
+    "Weight": "***"
+  },
+  {
+    "Name": "Finest Hour",
+    "Weight": "***"
+  },
+  {
+    "Name": "Genius Combatant",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Hooru Fledgling",
+    "Weight": ""
+  },
+  {
+    "Name": "Inquisitive Alchemist",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Inspire",
+    "Weight": ""
+  },
+  {
+    "Name": "Ironclad Oath",
+    "Weight": ""
+  },
+  {
+    "Name": "Kosul Bladebarrier",
+    "Weight": "***"
+  },
+  {
+    "Name": "Loyal Watchwing",
+    "Weight": ""
+  },
+  {
+    "Name": "Master-at-Arms",
+    "Weight": ""
+  },
+  {
+    "Name": "Miner's Canary",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Minotaur Grunt",
+    "Weight": ""
+  },
+  {
+    "Name": "Mithril Mace",
+    "Weight": ""
+  },
+  {
+    "Name": "Modready Drone",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Oni Samurai",
+    "Weight": ""
+  },
+  {
+    "Name": "Rebuke",
+    "Weight": "***"
+  },
+  {
+    "Name": "Reinforce",
+    "Weight": ""
+  },
+  {
+    "Name": "Reinforced Baton",
+    "Weight": ""
+  },
+  {
+    "Name": "Reliable Troops",
+    "Weight": ""
+  },
+  {
+    "Name": "Rolant's Favor",
+    "Weight": "***"
+  },
+  {
+    "Name": "Rotorsmith",
+    "Weight": ""
+  },
+  {
+    "Name": "Sky Crew",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Stalwart Silverwing",
+    "Weight": "***"
+  },
+  {
+    "Name": "Staunch Protector",
+    "Weight": ""
+  },
+  {
+    "Name": "Steadfast Deputy",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Talon of Nostrix",
+    "Weight": ""
+  },
+  {
+    "Name": "Topple",
+    "Weight": ""
+  },
+  {
+    "Name": "Town Watchman",
+    "Weight": ""
+  },
+  {
+    "Name": "Treasury Guard",
+    "Weight": ""
+  },
+  {
+    "Name": "Ursa Squadron",
+    "Weight": ""
+  },
+  {
+    "Name": "Valkyrie Aspirant",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Valkyrie Militant",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Emerald Maw",
+    "Weight": "*"
+  },
+  {
+    "Name": "Endless Steps",
+    "Weight": "*"
+  },
+  {
+    "Name": "Experimental Forcefield",
+    "Weight": "*"
+  },
+  {
+    "Name": "Gates of Hope",
+    "Weight": "*"
+  },
+  {
+    "Name": "Greatblade",
+    "Weight": ""
+  },
+  {
+    "Name": "Ky, Awakened Master",
+    "Weight": "*"
+  },
+  {
+    "Name": "Righteous Intent",
+    "Weight": "*"
+  },
+  {
+    "Name": "Rolant, Merciless",
+    "Weight": "*"
+  },
+  {
+    "Name": "Sigvard, the Last Bastion",
+    "Weight": "*"
+  },
+  {
+    "Name": "Avigraft",
+    "Weight": "*"
+  },
+  {
+    "Name": "Challenge by Law",
+    "Weight": "*"
+  },
+  {
+    "Name": "Citywide Ban",
+    "Weight": "*"
+  },
+  {
+    "Name": "Crownwatch Captain",
+    "Weight": "*"
+  },
+  {
+    "Name": "Crownwatch Press-Gang",
+    "Weight": "*"
+  },
+  {
+    "Name": "Custom Munitions",
+    "Weight": "*"
+  },
+  {
+    "Name": "Deafening Word",
+    "Weight": "*"
+  },
+  {
+    "Name": "Guardian Angel",
+    "Weight": "*"
+  },
+  {
+    "Name": "Harsh Rule",
+    "Weight": "*"
+  },
+  {
+    "Name": "Iron Priestess",
+    "Weight": "*"
+  },
+  {
+    "Name": "Kako, the Bodyguard",
+    "Weight": "*"
+  },
+  {
+    "Name": "Manacles",
+    "Weight": "*"
+  },
+  {
+    "Name": "Partnership Agreement",
+    "Weight": ""
+  },
+  {
+    "Name": "Rakano Sheriff",
+    "Weight": "*"
+  },
+  {
+    "Name": "Rolant's Honor Guard",
+    "Weight": "*"
+  },
+  {
+    "Name": "Shieldsmith",
+    "Weight": "*"
+  },
+  {
+    "Name": "Silverwing Commander",
+    "Weight": "*"
+  },
+  {
+    "Name": "Spire Chaplain",
+    "Weight": "*"
+  },
+  {
+    "Name": "Valkyrie Justiciar",
+    "Weight": "*"
+  },
+  {
+    "Name": "Valkyrie Spireguard",
+    "Weight": "*"
+  },
+  {
+    "Name": "Valkyrie Wings",
+    "Weight": "*"
+  },
+  {
+    "Name": "Armorsmith",
+    "Weight": ""
+  },
+  {
+    "Name": "Auren Jailer",
+    "Weight": ""
+  },
+  {
+    "Name": "Auric Sentry",
+    "Weight": "**"
+  },
+  {
+    "Name": "Auric Weaponsmith",
+    "Weight": "**"
+  },
+  {
+    "Name": "Crackshot Fugitive",
+    "Weight": "**"
+  },
+  {
+    "Name": "Crownwatch Cavalry",
+    "Weight": ""
+  },
+  {
+    "Name": "Crownwatch Paladin",
+    "Weight": ""
+  },
+  {
+    "Name": "Defiance",
+    "Weight": "**"
+  },
+  {
+    "Name": "Elder's Feather",
+    "Weight": ""
+  },
+  {
+    "Name": "Emerald Ring",
+    "Weight": "**"
+  },
+  {
+    "Name": "Fencing Master",
+    "Weight": "**"
+  },
+  {
+    "Name": "Fourth-Tree Elder",
+    "Weight": ""
+  },
+  {
+    "Name": "Heirloom Blade",
+    "Weight": "****"
+  },
+  {
+    "Name": "Hero of the People",
+    "Weight": ""
+  },
+  {
+    "Name": "Horngrinder",
+    "Weight": "**"
+  },
+  {
+    "Name": "Invisible Wall",
+    "Weight": "****"
+  },
+  {
+    "Name": "Kosul Battlemage",
+    "Weight": "**"
+  },
+  {
+    "Name": "Mantle of Justice",
+    "Weight": ""
+  },
+  {
+    "Name": "Minotaur Duelist",
+    "Weight": ""
+  },
+  {
+    "Name": "Offbook Officer",
+    "Weight": ""
+  },
+  {
+    "Name": "Overthrow",
+    "Weight": "**"
+  },
+  {
+    "Name": "Pumpwerks Engineer",
+    "Weight": "****"
+  },
+  {
+    "Name": "Recruitment Effort",
+    "Weight": ""
+  },
+  {
+    "Name": "Resounding Shockwave",
+    "Weight": "**"
+  },
+  {
+    "Name": "Silver Shortsword",
+    "Weight": ""
+  },
+  {
+    "Name": "Skysweeper",
+    "Weight": "**"
+  },
+  {
+    "Name": "Svetya's Bravery",
+    "Weight": "**"
+  },
+  {
+    "Name": "Tinker Apprentice",
+    "Weight": ""
+  },
+  {
+    "Name": "Touch of Purity",
+    "Weight": "****"
+  },
+  {
+    "Name": "Tower Inspector",
+    "Weight": "**"
+  },
+  {
+    "Name": "Valkyrie Bodyguard",
+    "Weight": "****"
+  },
+  {
+    "Name": "Valkyrie Cadet",
+    "Weight": "**"
+  },
+  {
+    "Name": "Valkyrie Station",
+    "Weight": "**"
+  },
+  {
+    "Name": "Well-Laid Trap",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rune of Trickery",
+    "Weight": ""
+  },
+  {
+    "Name": "Primal Sketch",
+    "Weight": ""
+  },
+  {
+    "Name": "Araktodon",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Backlash",
+    "Weight": "***"
+  },
+  {
+    "Name": "Boiling Geyser",
+    "Weight": ""
+  },
+  {
+    "Name": "Bottled Insight",
+    "Weight": ""
+  },
+  {
+    "Name": "Cloudsnake Hatchling",
+    "Weight": "***"
+  },
+  {
+    "Name": "Cobalt Acolyte",
+    "Weight": ""
+  },
+  {
+    "Name": "Cyber Hyena",
+    "Weight": "*****"
+  },
+  {
+    "Name": "East-Wind Herald",
+    "Weight": "***"
+  },
+  {
+    "Name": "Eilyn's Favor",
+    "Weight": ""
+  },
+  {
+    "Name": "First-Frost Shaman",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Foothills Alpha",
+    "Weight": ""
+  },
+  {
+    "Name": "Fragility",
+    "Weight": ""
+  },
+  {
+    "Name": "Freight Asri",
+    "Weight": ""
+  },
+  {
+    "Name": "Galeprowler",
+    "Weight": "***"
+  },
+  {
+    "Name": "Gnashing Displacer",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Icebow",
+    "Weight": ""
+  },
+  {
+    "Name": "Jarrall's Frostkin",
+    "Weight": ""
+  },
+  {
+    "Name": "Jotun Warrior",
+    "Weight": ""
+  },
+  {
+    "Name": "Jump Kick",
+    "Weight": "***"
+  },
+  {
+    "Name": "Lightning Strike",
+    "Weight": "***"
+  },
+  {
+    "Name": "Master Cartographer",
+    "Weight": ""
+  },
+  {
+    "Name": "Ridgeline Watcher",
+    "Weight": "***"
+  },
+  {
+    "Name": "Rolling Fog",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Rooted Observer",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Rule the Skies",
+    "Weight": "***"
+  },
+  {
+    "Name": "Scaly Gruan",
+    "Weight": ""
+  },
+  {
+    "Name": "Serpent Trainer",
+    "Weight": "***"
+  },
+  {
+    "Name": "Tandem Shieldbearer",
+    "Weight": ""
+  },
+  {
+    "Name": "Unseal",
+    "Weight": ""
+  },
+  {
+    "Name": "Violent Gust",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Voracious Fosora",
+    "Weight": ""
+  },
+  {
+    "Name": "Weather the Storm",
+    "Weight": "***"
+  },
+  {
+    "Name": "Wild Asri",
+    "Weight": "***"
+  },
+  {
+    "Name": "Wild Rider",
+    "Weight": ""
+  },
+  {
+    "Name": "Wisdom of the Elders",
+    "Weight": ""
+  },
+  {
+    "Name": "Yeti Bully",
+    "Weight": "***"
+  },
+  {
+    "Name": "Yeti Snowchucker",
+    "Weight": ""
+  },
+  {
+    "Name": "Yeti Snowslinger",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Yeti Spy",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Davia, Azurebreaker",
+    "Weight": ""
+  },
+  {
+    "Name": "Eilyn, Fearless",
+    "Weight": "*"
+  },
+  {
+    "Name": "Flight of Makkar",
+    "Weight": "*"
+  },
+  {
+    "Name": "Jufi, Sprite Seer",
+    "Weight": "*"
+  },
+  {
+    "Name": "Magus of the Mist",
+    "Weight": ""
+  },
+  {
+    "Name": "Misthelm",
+    "Weight": "*"
+  },
+  {
+    "Name": "Quicksilver Mirror",
+    "Weight": "*"
+  },
+  {
+    "Name": "Thudrock, Arctic Artisan",
+    "Weight": "*"
+  },
+  {
+    "Name": "Tormented Crown",
+    "Weight": "*"
+  },
+  {
+    "Name": "Brutal Frostlord",
+    "Weight": "*"
+  },
+  {
+    "Name": "Channel the Tempest",
+    "Weight": "*"
+  },
+  {
+    "Name": "Crackling Bauble",
+    "Weight": "*"
+  },
+  {
+    "Name": "Crystallize",
+    "Weight": "*"
+  },
+  {
+    "Name": "Eilyn's Frostrider",
+    "Weight": ""
+  },
+  {
+    "Name": "Formbend",
+    "Weight": "*"
+  },
+  {
+    "Name": "Hatchery Hunter",
+    "Weight": ""
+  },
+  {
+    "Name": "Hidden Crusader",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ice Bolt",
+    "Weight": "*"
+  },
+  {
+    "Name": "Pinnacle of the Reach",
+    "Weight": "*"
+  },
+  {
+    "Name": "Powderglider",
+    "Weight": "*"
+  },
+  {
+    "Name": "Rain of Frogs",
+    "Weight": "*"
+  },
+  {
+    "Name": "Reflector",
+    "Weight": "*"
+  },
+  {
+    "Name": "Runic Transformation",
+    "Weight": "*"
+  },
+  {
+    "Name": "Savagery",
+    "Weight": "*"
+  },
+  {
+    "Name": "Shaluuk Captain",
+    "Weight": "*"
+  },
+  {
+    "Name": "Skimmer Wrangler",
+    "Weight": "*"
+  },
+  {
+    "Name": "Staff of Stories",
+    "Weight": "*"
+  },
+  {
+    "Name": "Stormtamer Operative",
+    "Weight": "*"
+  },
+  {
+    "Name": "Torgov, Icecap Trader",
+    "Weight": "*"
+  },
+  {
+    "Name": "Velise, Bear Rider",
+    "Weight": ""
+  },
+  {
+    "Name": "West-Wind Herald",
+    "Weight": "*"
+  },
+  {
+    "Name": "Whispering Wind",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ancient Serpent",
+    "Weight": ""
+  },
+  {
+    "Name": "Balm",
+    "Weight": "**"
+  },
+  {
+    "Name": "Campfire Watchman",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cobalt Ring",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cover From the Storm",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cyber Skimmer",
+    "Weight": ""
+  },
+  {
+    "Name": "Distilled Rage",
+    "Weight": ""
+  },
+  {
+    "Name": "Grizzled Guard",
+    "Weight": "****"
+  },
+  {
+    "Name": "Ice Sprite",
+    "Weight": ""
+  },
+  {
+    "Name": "Icebreaker",
+    "Weight": "**"
+  },
+  {
+    "Name": "Icicle Marksman",
+    "Weight": "****"
+  },
+  {
+    "Name": "Lethrai Secretweaver",
+    "Weight": "**"
+  },
+  {
+    "Name": "Merciless Officer",
+    "Weight": ""
+  },
+  {
+    "Name": "North-Wind Herald",
+    "Weight": ""
+  },
+  {
+    "Name": "Numbing Cold",
+    "Weight": "**"
+  },
+  {
+    "Name": "Obstructive Flicker",
+    "Weight": ""
+  },
+  {
+    "Name": "Permafrost",
+    "Weight": "**"
+  },
+  {
+    "Name": "Plunged into the Sea",
+    "Weight": ""
+  },
+  {
+    "Name": "Polymorph",
+    "Weight": "**"
+  },
+  {
+    "Name": "Primal Incarnation",
+    "Weight": ""
+  },
+  {
+    "Name": "Psionic Savant",
+    "Weight": ""
+  },
+  {
+    "Name": "Rabid Yeti",
+    "Weight": "**"
+  },
+  {
+    "Name": "Sapphire Dragon",
+    "Weight": ""
+  },
+  {
+    "Name": "Savage Denial",
+    "Weight": "**"
+  },
+  {
+    "Name": "Shockwave Elemental",
+    "Weight": "****"
+  },
+  {
+    "Name": "Skycrag Wyvarch",
+    "Weight": ""
+  },
+  {
+    "Name": "Soaring Pennant",
+    "Weight": ""
+  },
+  {
+    "Name": "Stormcaller",
+    "Weight": "****"
+  },
+  {
+    "Name": "Substitute",
+    "Weight": "**"
+  },
+  {
+    "Name": "Tend the Flock",
+    "Weight": "**"
+  },
+  {
+    "Name": "Thunderbird",
+    "Weight": ""
+  },
+  {
+    "Name": "Touch of Wild",
+    "Weight": "**"
+  },
+  {
+    "Name": "Tundra Explorer",
+    "Weight": ""
+  },
+  {
+    "Name": "Wild Cloudsnake",
+    "Weight": "****"
+  },
+  {
+    "Name": "Wind Cloak",
+    "Weight": "**"
+  },
+  {
+    "Name": "Windshaper",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rune of Illusion",
+    "Weight": ""
+  },
+  {
+    "Name": "Shadow Sketch",
+    "Weight": ""
+  },
+  {
+    "Name": "Amethyst Acolyte",
+    "Weight": ""
+  },
+  {
+    "Name": "Back-Alley Bouncer",
+    "Weight": "***"
+  },
+  {
+    "Name": "Bandit's Flail",
+    "Weight": ""
+  },
+  {
+    "Name": "Banished Umbren",
+    "Weight": ""
+  },
+  {
+    "Name": "Blackguard Sidearm",
+    "Weight": ""
+  },
+  {
+    "Name": "Blood Beetle",
+    "Weight": ""
+  },
+  {
+    "Name": "Cripple",
+    "Weight": "***"
+  },
+  {
+    "Name": "Cut Ties",
+    "Weight": "***"
+  },
+  {
+    "Name": "Dark Wisp",
+    "Weight": ""
+  },
+  {
+    "Name": "Deepcover Operative",
+    "Weight": "***"
+  },
+  {
+    "Name": "Devour",
+    "Weight": "***"
+  },
+  {
+    "Name": "Direfang Spider",
+    "Weight": "***"
+  },
+  {
+    "Name": "Direwood Rampager",
+    "Weight": "***"
+  },
+  {
+    "Name": "Execute",
+    "Weight": "***"
+  },
+  {
+    "Name": "Glen Pathcutter",
+    "Weight": ""
+  },
+  {
+    "Name": "Grenamender",
+    "Weight": ""
+  },
+  {
+    "Name": "Improvised Club",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Leatherhide",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Lethrai Bladewhirl",
+    "Weight": ""
+  },
+  {
+    "Name": "Lethrai Ranger",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Lurking Brute",
+    "Weight": ""
+  },
+  {
+    "Name": "Malaise",
+    "Weight": "***"
+  },
+  {
+    "Name": "Marsh Dragon",
+    "Weight": ""
+  },
+  {
+    "Name": "Miasma",
+    "Weight": ""
+  },
+  {
+    "Name": "Minister of Obeyance",
+    "Weight": ""
+  },
+  {
+    "Name": "Muck Devourer",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Pilfer",
+    "Weight": "***"
+  },
+  {
+    "Name": "Ransack",
+    "Weight": ""
+  },
+  {
+    "Name": "Ravenous Thornbeast",
+    "Weight": ""
+  },
+  {
+    "Name": "Sabotage",
+    "Weight": "***"
+  },
+  {
+    "Name": "Scavenging Vulture",
+    "Weight": ""
+  },
+  {
+    "Name": "Shadowpath Intimidator",
+    "Weight": ""
+  },
+  {
+    "Name": "Silverblade Reaper",
+    "Weight": "***"
+  },
+  {
+    "Name": "Skeeter",
+    "Weight": ""
+  },
+  {
+    "Name": "Spirit Drain",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Spitefeeder",
+    "Weight": ""
+  },
+  {
+    "Name": "Switchblade Deadeye",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Thorncrawler",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Threaten",
+    "Weight": ""
+  },
+  {
+    "Name": "Tock Tick",
+    "Weight": "***"
+  },
+  {
+    "Name": "Umbren Coaxer",
+    "Weight": "*****"
+  },
+  {
+    "Name": "Unchecked Upgrader",
+    "Weight": ""
+  },
+  {
+    "Name": "Vampire Bat",
+    "Weight": ""
+  },
+  {
+    "Name": "Vara's Favor",
+    "Weight": ""
+  },
+  {
+    "Name": "Ambitious Mandevilla",
+    "Weight": ""
+  },
+  {
+    "Name": "Elding of the Final Hour",
+    "Weight": "*"
+  },
+  {
+    "Name": "Fall to Ruin",
+    "Weight": "*"
+  },
+  {
+    "Name": "Heartstopper",
+    "Weight": "*"
+  },
+  {
+    "Name": "Mazag, the Waking Terror",
+    "Weight": "*"
+  },
+  {
+    "Name": "Nametaker",
+    "Weight": "*"
+  },
+  {
+    "Name": "Obrak, the Feaster",
+    "Weight": "*"
+  },
+  {
+    "Name": "Solitude",
+    "Weight": "*"
+  },
+  {
+    "Name": "Vara, Limitless",
+    "Weight": "*"
+  },
+  {
+    "Name": "Wingbrewer",
+    "Weight": "*"
+  },
+  {
+    "Name": "Xumuc Poison",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ashara, Ruthless Assassin",
+    "Weight": "*"
+  },
+  {
+    "Name": "Ashara, the Deadshot",
+    "Weight": "*"
+  },
+  {
+    "Name": "Auric Captain",
+    "Weight": "*"
+  },
+  {
+    "Name": "Cat Burglar",
+    "Weight": ""
+  },
+  {
+    "Name": "Corrupt",
+    "Weight": "*"
+  },
+  {
+    "Name": "Devastating Setback",
+    "Weight": "*"
+  },
+  {
+    "Name": "Devious Drone",
+    "Weight": "*"
+  },
+  {
+    "Name": "Dreamsnatcher",
+    "Weight": "*"
+  },
+  {
+    "Name": "Impending Doom",
+    "Weight": "*"
+  },
+  {
+    "Name": "Inciter of Madness",
+    "Weight": "*"
+  },
+  {
+    "Name": "Lethrai Falchion",
+    "Weight": "*"
+  },
+  {
+    "Name": "Lurking Sanguar",
+    "Weight": "*"
+  },
+  {
+    "Name": "Relentless Gorehorn",
+    "Weight": "*"
+  },
+  {
+    "Name": "Relicfeaster",
+    "Weight": ""
+  },
+  {
+    "Name": "Shadowcreeper",
+    "Weight": "*"
+  },
+  {
+    "Name": "Slimespitter Slug",
+    "Weight": ""
+  },
+  {
+    "Name": "Steward of the Past",
+    "Weight": "*"
+  },
+  {
+    "Name": "Stonescar Sneak",
+    "Weight": "*"
+  },
+  {
+    "Name": "Subversion Slug",
+    "Weight": "*"
+  },
+  {
+    "Name": "Twisted Farmer",
+    "Weight": ""
+  },
+  {
+    "Name": "Waxing Moon",
+    "Weight": "*"
+  },
+  {
+    "Name": "Abduct",
+    "Weight": ""
+  },
+  {
+    "Name": "Afflictor",
+    "Weight": ""
+  },
+  {
+    "Name": "Amethyst Ring",
+    "Weight": ""
+  },
+  {
+    "Name": "Blood of Makkar",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cabal Cutthroat",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cabal Recruiter",
+    "Weight": "**"
+  },
+  {
+    "Name": "Cabal Rogue",
+    "Weight": ""
+  },
+  {
+    "Name": "Cull the Deck",
+    "Weight": "**"
+  },
+  {
+    "Name": "D'Angolo Might",
+    "Weight": ""
+  },
+  {
+    "Name": "Desperado",
+    "Weight": "**"
+  },
+  {
+    "Name": "Devouring Shadow",
+    "Weight": ""
+  },
+  {
+    "Name": "Direwood Prowler",
+    "Weight": ""
+  },
+  {
+    "Name": "Ghostform",
+    "Weight": "**"
+  },
+  {
+    "Name": "Glensapper",
+    "Weight": ""
+  },
+  {
+    "Name": "Grave Robbery",
+    "Weight": "****"
+  },
+  {
+    "Name": "Grenadin Bellower",
+    "Weight": "**"
+  },
+  {
+    "Name": "Grimy Alp-luachra",
+    "Weight": "**"
+  },
+  {
+    "Name": "Gunrustler",
+    "Weight": "****"
+  },
+  {
+    "Name": "Horsesnatcher Bat",
+    "Weight": ""
+  },
+  {
+    "Name": "Hypnotic Valkyrie",
+    "Weight": ""
+  },
+  {
+    "Name": "Lifedrinker",
+    "Weight": "**"
+  },
+  {
+    "Name": "Minotaur Lighthoof",
+    "Weight": ""
+  },
+  {
+    "Name": "Mug",
+    "Weight": ""
+  },
+  {
+    "Name": "Outmatch",
+    "Weight": ""
+  },
+  {
+    "Name": "Piercing Grief",
+    "Weight": "**"
+  },
+  {
+    "Name": "Sadistic Glee",
+    "Weight": "**"
+  },
+  {
+    "Name": "Send a Message",
+    "Weight": ""
+  },
+  {
+    "Name": "Shadowfang Valkyrie",
+    "Weight": ""
+  },
+  {
+    "Name": "Soil Renewal",
+    "Weight": ""
+  },
+  {
+    "Name": "Soul Collector",
+    "Weight": "****"
+  },
+  {
+    "Name": "Stalking Assassin",
+    "Weight": "****"
+  },
+  {
+    "Name": "Touch of Resilience",
+    "Weight": "**"
+  },
+  {
+    "Name": "Toxic Cloud",
+    "Weight": "****"
+  },
+  {
+    "Name": "Turn For The Worse",
+    "Weight": ""
+  },
+  {
+    "Name": "Vizier's Tablet",
+    "Weight": ""
+  },
+  {
+    "Name": "Xenan Cultist",
+    "Weight": "****"
+  },
+  {
+    "Name": "Praxis Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Impulse",
+    "Weight": ""
+  },
+  {
+    "Name": "Sandglass Sentinel",
+    "Weight": "**"
+  },
+  {
+    "Name": "Speardancer",
+    "Weight": ""
+  },
+  {
+    "Name": "Moment of Creation",
+    "Weight": "*"
+  },
+  {
+    "Name": "Málaga Amphitheatre",
+    "Weight": "*"
+  },
+  {
+    "Name": "Marshal Izia",
+    "Weight": ""
+  },
+  {
+    "Name": "Noble Firemane",
+    "Weight": ""
+  },
+  {
+    "Name": "Searing Strike",
+    "Weight": ""
+  },
+  {
+    "Name": "Stoneshell Walker",
+    "Weight": ""
+  },
+  {
+    "Name": "Talir's Choice",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Progress",
+    "Weight": ""
+  },
+  {
+    "Name": "Combrei Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Awakened Student",
+    "Weight": ""
+  },
+  {
+    "Name": "Nobles' Enforcer",
+    "Weight": ""
+  },
+  {
+    "Name": "Copperhall Elite",
+    "Weight": "*"
+  },
+  {
+    "Name": "Teryius, Martial Master",
+    "Weight": "*"
+  },
+  {
+    "Name": "Auric Record Keeper",
+    "Weight": ""
+  },
+  {
+    "Name": "Combrei Healer",
+    "Weight": ""
+  },
+  {
+    "Name": "Gavel's Insight",
+    "Weight": ""
+  },
+  {
+    "Name": "Karmic Guardian",
+    "Weight": ""
+  },
+  {
+    "Name": "Penitent Bull",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Order",
+    "Weight": ""
+  },
+  {
+    "Name": "Hooru Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Bring Down",
+    "Weight": "**"
+  },
+  {
+    "Name": "Stormhalt Concoction",
+    "Weight": ""
+  },
+  {
+    "Name": "Eilyn, Clan Mother",
+    "Weight": ""
+  },
+  {
+    "Name": "Kothon, the Far-Watcher",
+    "Weight": "*"
+  },
+  {
+    "Name": "Electrostatic Distortion",
+    "Weight": "*"
+  },
+  {
+    "Name": "Freeze Out",
+    "Weight": "*"
+  },
+  {
+    "Name": "Yojimba, Ghostblade",
+    "Weight": ""
+  },
+  {
+    "Name": "Duelist's Blade",
+    "Weight": "**"
+  },
+  {
+    "Name": "Highwind Glider",
+    "Weight": "**"
+  },
+  {
+    "Name": "Raildriver Trainee",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Cunning",
+    "Weight": ""
+  },
+  {
+    "Name": "Feln Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Gorgon Swiftblade",
+    "Weight": "**"
+  },
+  {
+    "Name": "Surprise Raid",
+    "Weight": "**"
+  },
+  {
+    "Name": "Trickster's Cloak",
+    "Weight": "**"
+  },
+  {
+    "Name": "Midnight Gale",
+    "Weight": "*"
+  },
+  {
+    "Name": "Nightmaw, Sight Unseen",
+    "Weight": "*"
+  },
+  {
+    "Name": "Sindar, the Corruptor",
+    "Weight": "*"
+  },
+  {
+    "Name": "Darktalon Wyvarch",
+    "Weight": "*"
+  },
+  {
+    "Name": "Spell Swipe",
+    "Weight": "*"
+  },
+  {
+    "Name": "Voltage Generator",
+    "Weight": ""
+  },
+  {
+    "Name": "Withering Witch",
+    "Weight": ""
+  },
+  {
+    "Name": "Foraging Tri-Toe",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rindra's Choice",
+    "Weight": "**"
+  },
+  {
+    "Name": "Seat of Chaos",
+    "Weight": ""
+  },
+  {
+    "Name": "Stonescar Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Combust",
+    "Weight": "**"
+  },
+  {
+    "Name": "Obsidian Golem",
+    "Weight": "**"
+  },
+  {
+    "Name": "Skullbreaker",
+    "Weight": ""
+  },
+  {
+    "Name": "Scraptank",
+    "Weight": ""
+  },
+  {
+    "Name": "Statuary Maiden",
+    "Weight": "*"
+  },
+  {
+    "Name": "Bloodrite Kalis",
+    "Weight": "*"
+  },
+  {
+    "Name": "Cremate",
+    "Weight": "*"
+  },
+  {
+    "Name": "Sanguine Reaper",
+    "Weight": "*"
+  },
+  {
+    "Name": "Disgraced Cadet",
+    "Weight": ""
+  },
+  {
+    "Name": "Metalfang",
+    "Weight": ""
+  },
+  {
+    "Name": "Voprex's Choice",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rakano Banner",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rakano Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Glory",
+    "Weight": ""
+  },
+  {
+    "Name": "Queen's Elite",
+    "Weight": ""
+  },
+  {
+    "Name": "Renegade Valkyrie",
+    "Weight": "**"
+  },
+  {
+    "Name": "Pisto, Ever-Churning",
+    "Weight": "*"
+  },
+  {
+    "Name": "Overclocked Sentinel",
+    "Weight": ""
+  },
+  {
+    "Name": "Rakano Artisan",
+    "Weight": ""
+  },
+  {
+    "Name": "Tinker Dronedropper",
+    "Weight": "*"
+  },
+  {
+    "Name": "Field Captain",
+    "Weight": ""
+  },
+  {
+    "Name": "Ijin's Choice",
+    "Weight": "**"
+  },
+  {
+    "Name": "Longhorn Sergeant",
+    "Weight": ""
+  },
+  {
+    "Name": "Mechanized Constructor",
+    "Weight": ""
+  },
+  {
+    "Name": "Elysian Banner",
+    "Weight": "**"
+  },
+  {
+    "Name": "Seat of Wisdom",
+    "Weight": ""
+  },
+  {
+    "Name": "Elysian Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Launching Asri",
+    "Weight": "**"
+  },
+  {
+    "Name": "Call the Ancients",
+    "Weight": "*"
+  },
+  {
+    "Name": "Cirso, the Great Glutton",
+    "Weight": "*"
+  },
+  {
+    "Name": "Entratius, Beckoning",
+    "Weight": "*"
+  },
+  {
+    "Name": "Torgov's Trading Post",
+    "Weight": "*"
+  },
+  {
+    "Name": "Hunting Pteriax",
+    "Weight": ""
+  },
+  {
+    "Name": "Mandatory Retirement",
+    "Weight": "*"
+  },
+  {
+    "Name": "False Prince",
+    "Weight": "**"
+  },
+  {
+    "Name": "Ring of Glamour",
+    "Weight": "**"
+  },
+  {
+    "Name": "Storm Lynx",
+    "Weight": "**"
+  },
+  {
+    "Name": "Twinning Ritual",
+    "Weight": ""
+  },
+  {
+    "Name": "Argenport Banner",
+    "Weight": "**"
+  },
+  {
+    "Name": "Argenport Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Seat of Vengeance",
+    "Weight": ""
+  },
+  {
+    "Name": "D'Angolo Racketeers",
+    "Weight": "**"
+  },
+  {
+    "Name": "Crownwatch Traitor",
+    "Weight": "*"
+  },
+  {
+    "Name": "Death's Doorstep",
+    "Weight": "*"
+  },
+  {
+    "Name": "A Life For A Life",
+    "Weight": "*"
+  },
+  {
+    "Name": "Unfinished Business",
+    "Weight": "*"
+  },
+  {
+    "Name": "Collapse",
+    "Weight": "**"
+  },
+  {
+    "Name": "Slay",
+    "Weight": "**"
+  },
+  {
+    "Name": "Skycrag Banner",
+    "Weight": "**"
+  },
+  {
+    "Name": "Seat of Fury",
+    "Weight": ""
+  },
+  {
+    "Name": "Skycrag Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Burnished Grenahawk",
+    "Weight": ""
+  },
+  {
+    "Name": "Topaz Drake",
+    "Weight": "**"
+  },
+  {
+    "Name": "Crill, Merciless Pillager",
+    "Weight": ""
+  },
+  {
+    "Name": "Kaleb, Reborn",
+    "Weight": "*"
+  },
+  {
+    "Name": "Calderan Cradle",
+    "Weight": "*"
+  },
+  {
+    "Name": "Prowling Amaruq",
+    "Weight": ""
+  },
+  {
+    "Name": "Hunter's Harpoon",
+    "Weight": "**"
+  },
+  {
+    "Name": "Iceberg Warchief",
+    "Weight": "**"
+  },
+  {
+    "Name": "Kaleb's Choice",
+    "Weight": "**"
+  },
+  {
+    "Name": "Tandem Training",
+    "Weight": ""
+  },
+  {
+    "Name": "Xenan Banner",
+    "Weight": "**"
+  },
+  {
+    "Name": "Seat of Mystery",
+    "Weight": ""
+  },
+  {
+    "Name": "Xenan Blueprints",
+    "Weight": ""
+  },
+  {
+    "Name": "Lurking Feeder",
+    "Weight": ""
+  },
+  {
+    "Name": "Nahid's Faithful",
+    "Weight": ""
+  },
+  {
+    "Name": "Xenan Augury",
+    "Weight": ""
+  },
+  {
+    "Name": "Xenan Cupbearer",
+    "Weight": "**"
+  },
+  {
+    "Name": "Ayan, the Abductor",
+    "Weight": ""
+  },
+  {
+    "Name": "Nahid, the Immortal",
+    "Weight": "*"
+  },
+  {
+    "Name": "Unraveler of Destinies",
+    "Weight": "*"
+  },
+  {
+    "Name": "Worldjoiner",
+    "Weight": "*"
+  },
+  {
+    "Name": "Aymar, Dark Summoner",
+    "Weight": "*"
+  },
+  {
+    "Name": "Endless Nightmare",
+    "Weight": "*"
+  },
+  {
+    "Name": "Express Route",
+    "Weight": "*"
+  },
+  {
+    "Name": "Siphon Vitality",
+    "Weight": "*"
+  },
+  {
+    "Name": "Blistersting Wasp",
+    "Weight": "**"
+  },
+  {
+    "Name": "Clinging Scavenger",
+    "Weight": ""
+  },
+  {
+    "Name": "Nahid's Choice",
+    "Weight": ""
+  },
+  {
+    "Name": "Preserver of Dualities",
+    "Weight": ""
+  },
+  {
+    "Name": "Shadowlands Bonepicker",
+    "Weight": ""
+  },
+  {
+    "Name": "Alchemical Blast",
+    "Weight": "**"
+  },
+  {
+    "Name": "Ancient Manual",
+    "Weight": ""
+  },
+  {
+    "Name": "Astromancer's Compass",
+    "Weight": "**"
+  },
+  {
+    "Name": "Bannerman",
+    "Weight": "**"
+  },
+  {
+    "Name": "Hired Cutthroat",
+    "Weight": "**"
+  },
+  {
+    "Name": "Manufactured Force",
+    "Weight": "**"
+  },
+  {
+    "Name": "Rotorcycle",
+    "Weight": ""
+  },
+  {
+    "Name": "Rumbling Contraption",
+    "Weight": ""
+  },
+  {
+    "Name": "Seek Power",
+    "Weight": "**"
+  },
+  {
+    "Name": "Worn Shield",
+    "Weight": "**"
+  },
+  {
+    "Name": "Momentum Builder",
+    "Weight": "*"
+  },
+  {
+    "Name": "Undercover Enforcer",
+    "Weight": "*"
+  },
+  {
+    "Name": "Camouflaged Soldier",
+    "Weight": "**"
+  },
+  {
+    "Name": "Prism Stone",
+    "Weight": "**"
+  },
+  {
+    "Name": "Sacred Seal",
+    "Weight": "**"
+  },
+  {
+    "Name": "Spiked Helm",
+    "Weight": "**"
+  },
+  {
+    "Name": "Tools of Oppression",
+    "Weight": "**"
+  }
+]
