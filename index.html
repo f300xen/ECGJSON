@@ -1,0 +1,713 @@
+<!DOCTYPE html> <!-- is this even a thing anymore -->
+<html>
+
+<head>
+    <title>Scoutpower Eternal Search</title>
+    <link rel="icon" href="https://raw.githubusercontent.com/f300xen/ECGJSON/main/expedition.png">
+
+    <div class="card" style="display:none;">
+        <div class="cardName">
+
+        </div>
+        <div class="draftWeight">
+
+        </div>
+    </div>
+
+    <meta property="og:title" content="Scoutpower">
+    <meta property="og:image" content="https://cards.eternalwarcry.com/cards/full/Excavation_Assistant.png">
+    <meta property="og:description" content="Please remove weights from curated packs.">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+            background-color: rgba(51, 51, 51, 1);
+
+            text-align: center;
+            font-family: 'Arial';
+        }
+
+        .header {
+            width: 100vw;
+            height: 2rem;
+            padding: .5rem;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: flex-start;
+            gap: 0 .5rem;
+
+            background-image: linear-gradient(black, rgba(0, 0, 0, .33), transparent);
+
+            position: fixed;
+            z-index: 69420;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+
+            text-transform: uppercase;
+
+            display: block;
+        }
+
+        .search {
+            display: block;
+        }
+
+        input[type=text] {
+            width: 30rem;
+            height: 2rem;
+            border: 0;
+            border-radius: .5rem;
+
+            padding: 1rem;
+            font-size: 2rem;
+        }
+
+        input::placeholder {
+            user-select: none;
+        }
+
+        .options {
+            display: block;
+            /*
+            background-color: black;
+            border-radius: 0 0 .25rem .25rem;
+            padding: .25rem .5rem .5rem .5rem;
+            */
+        }
+
+        .options .section {
+            text-align: right;
+            color: white;
+
+            display: block;
+        }
+
+        input[type=checkbox] {
+            height: 1rem;
+            width: 1rem;
+
+            vertical-align: -.125rem;
+        }
+
+        .options label {
+            user-select: none;
+
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .results {
+            padding: 10rem 2rem 2rem 2rem;
+            width: 100%;
+
+            overflow-x: hidden;
+            box-sizing: border-box;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            align-content: flex-end;
+        }
+
+        .results.showWeight {
+            gap: 1rem 0;
+        }
+
+        .card {
+            width: calc(.15rem * 382 / 5);
+            height: calc(.15rem * 606 / 5);
+            background-size: 100% 100%;
+
+            display: inline-block;
+
+            position: relative;
+        }
+
+        .cardName {
+            position: relative;
+            top: 11.2rem;
+            left: -.05rem;
+
+            color: rgba(0, 0, 0, 0);
+            font-size: .85rem;
+            font-weight: 700;
+            transform: scale(1 1.1);
+
+            /* user-select: none; now you can ctrl-A to get a list of results */
+        }
+
+        .showWeight .card[data-in-expedition='true'] .draftWeight {
+            width: calc(.15rem * 382 / 5 - 1rem);
+            box-sizing: border-box;
+
+            position: absolute;
+            top: calc(100%);
+            left: .5rem;
+
+            display: block;
+            background-color: rgba(204, 51, 51, .8);
+            border-radius: .25rem;
+
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        .showExped .card[data-in-expedition='false'] {
+            opacity: .2;
+        }
+
+        .showWeight .card[data-in-draft-pack='false'] {
+            opacity: .1;
+        }
+
+        .showWeight .card[data-weight='0'] {
+            opacity: calc(.4 + 1 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='0'] .draftWeight {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .showWeight .card[data-weight='1'] {
+            opacity: calc(.4 + 2 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='1'] .draftWeight {
+            background-color: rgb(204, 51, 51);
+        }
+
+        .showWeight .card[data-weight='2'] {
+            opacity: calc(.4 + 3 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='2'] .draftWeight {
+            background-color: rgb(204, 153, 51);
+        }
+
+        .showWeight .card[data-weight='3'] {
+            opacity: calc(.4 + 4 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='3'] .draftWeight {
+            background-color: rgb(0, 153, 0);
+        }
+
+        .showWeight .card[data-weight='4'] {
+            opacity: calc(.4 + 5 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='4'] .draftWeight {
+            background-color: rgb(0, 0, 153);
+        }
+
+        .showWeight .card[data-weight='5'] {
+            opacity: calc(.4 + 6 * .6 / 6);
+        }
+
+        .showWeight .card[data-weight='5'] .draftWeight {
+            background-color: rgb(153, 0, 153);
+        }
+
+        :not(.showWeight) .draftWeight {
+            display: none;
+        }
+
+        .showGlow .card[data-rarity='None'] {}
+
+        .showGlow .card[data-rarity='Common'] {}
+
+        .showGlow .card[data-rarity='Uncommon'] {
+            filter: drop-shadow(0 0 .25rem #207a05);
+        }
+
+        .showGlow .card[data-rarity='Uncommon']:not(.showExped .card:not([data-in-expedition='true'])):not(.showWeight .card[data-in-draft-pack='false']):hover {
+            filter: drop-shadow(0 0 .25rem white) drop-shadow(0 0 .5rem #207a05);
+        }
+
+        .showGlow .card[data-rarity='Rare'] {
+            filter: drop-shadow(0 0 .25rem #074bba);
+        }
+
+        .showGlow .card[data-rarity='Rare']:not(.showExped .card:not([data-in-expedition='true'])):not(.showWeight .card[data-in-draft-pack='false']):hover {
+            filter: drop-shadow(0 0 .25rem white) drop-shadow(0 0 .5rem #074bba);
+        }
+
+        .showGlow .card[data-rarity='Promo'] {
+            filter: drop-shadow(0 0 .25rem #6b06b7);
+        }
+
+        .showGlow .card[data-rarity='Promo']:not(.showExped .card:not([data-in-expedition='true'])):not(.showWeight .card[data-in-draft-pack='false']):hover {
+            filter: drop-shadow(0 0 .25rem white) drop-shadow(0 0 .5rem #6b06b7);
+        }
+
+        .showGlow .card[data-rarity='Legendary'] {
+            filter: drop-shadow(0 0 .25rem #f6b231);
+        }
+
+        .showGlow .card[data-rarity='Legendary']:not(.showExped .card:not([data-in-expedition='true'])):not(.showWeight .card[data-in-draft-pack='false']):hover {
+            filter: drop-shadow(0 0 .25rem white) drop-shadow(0 0 .5rem #f6b231);
+        }
+
+        .card:not(.showExped .card[data-in-expedition='false']):not(.showWeight .card[data-in-draft-pack='false']):hover {
+            filter: drop-shadow(0 0 .25rem white);
+        }
+
+        .notResults {
+            display: none;
+        }
+
+        .end {
+            padding: 0 2rem 2rem 2rem;
+
+            font-size: 5rem;
+            font-weight: 700;
+            color: white;
+
+            user-select: none;
+
+            text-transform: uppercase;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        function LoadCards() {
+            let URL = "https://raw.githubusercontent.com/f300xen/ECGJSON/main/eternal-cards.json";
+            let dpURL = "https://raw.githubusercontent.com/f300xen/ECGJSON/main/draft-pack.json";
+
+            fetchAsync(URL)
+                .then(x => CreateCards(x))
+                .then(() => fetchAsync(dpURL))
+                .then(x => SetDraftPacks(x))
+                .then(() => DoExistingSearch())
+                .catch(error => console.log(error));
+        }
+
+        async function fetchAsync(url) {
+            let response = await fetch(url, {
+                mode: 'cors'
+            });
+            // console.log(response);
+            return await response.json();
+        }
+
+        function CreateCards(cards) {
+            let length = Object.keys(cards).length
+            var parent = document.querySelector(".results");
+            var hidden = document.querySelector(".notResults");
+            for (let i = 0; i < length; i++) {
+                let card = cards[i];
+                let show = card["Rarity"] == "None" ? (card["Name"].includes("Sigil") ? parent : hidden) : parent
+                CreateCardObject(card, show, i);
+            }
+        }
+
+        function SetDraftPacks(cards) {
+            let length = Object.keys(cards).length;
+
+            var starWeights = [1, 3, 6, 9, 12, 18];
+
+            for (let i = 0; i < length; i++) {
+                let card = cards[i];
+                let weight = card["Weight"].length;
+                let name = card["Name"];
+                let cardObject = document.getElementById(CardNameToID(name));
+
+                let weightObject = cardObject.querySelector(".draftWeight");
+                weightObject.textContent = starWeights[weight] + 'x';
+
+                cardObject.dataset.inExpedition = true;
+                cardObject.dataset.inDraftPack = true;
+                cardObject.dataset.weight = weight;
+            }
+        }
+
+        function CreateCardObject(card, parent, index) {
+            let cardName = card["Name"];
+
+            let cardPrefab = document.querySelector(".card");
+
+            let newCard = cardPrefab.cloneNode(true);
+            parent.appendChild(newCard);
+
+            newCard.id = CardNameToID(cardName);
+            newCard.style.display = "";
+
+            let URL = CardNameToImageURL(cardName);
+            let urlString = "url('" + URL + "')";
+            newCard.style.backgroundImage = urlString;
+
+            newCard.dataset.inExpedition = InExped(card);
+
+            newCard.querySelector(".cardName").textContent = cardName;
+
+            newCard.dataset.index = index;
+            newCard.dataset.rarity = card["Rarity"];
+            newCard.dataset.type = card["Type"];
+            newCard.dataset.cost = card["Cost"];
+            newCard.dataset.set = card["SetNumber"];
+            newCard.dataset.setOrder = card["EternalID"];
+            newCard.dataset.strength = card["Attack"];
+            newCard.dataset.health = card["Health"];
+            newCard.dataset.textContent = card["CardText"];
+            newCard.dataset.influence = card["Influence"];
+
+            newCard.dataset.inDraftPack = false;
+
+            newCard.dataset.faction = card["Factions__1"];
+        }
+
+        function CardNameToID(cardName) {
+            return cardName.replaceAll(' ', '_').replaceAll('\'', '\\\'');
+        }
+
+        function CardNameToImageURL(cardName) {
+            return "https://cards.eternalwarcry.com/cards/full/" + CardNameToID(cardName) + ".png";
+        }
+
+        function InExped(card) {
+            let promos = ['Javan, the Steel Crest', 'Gemblazer Cannon', 'A New Beginning', 'Vara\'s Authority', 'Quinn, Master Tracker', 'Raniya, Never Caught'];
+            let sets = [11, 12, 1115, 1125];
+            if (promos.includes(card["Name"])) {
+                return true;
+            }
+            if (sets.includes(card["SetNumber"])) {
+                return true;
+            }
+            return false;
+        }
+
+    </script>
+
+    <script>
+        function DoExistingSearch() {
+            let query = new URL(window.location).searchParams.get('search');
+            if (query) {
+                document.querySelector("#searchBar").value = query;
+                Search(query, false)
+            }
+        }
+
+        function Search(query, replace) {
+            if (replace) {
+                let url = query.trim();
+                history.replaceState(undefined, undefined, url ? "?search=" + url : location.pathname);
+            }
+
+            if (query.trim().length == 0) {
+                EmptySearch();
+            } else {
+                let results = SearchFor(query.toLowerCase().replace(/ +/g, ' ').trim());
+            }
+        }
+
+        function SearchFor(query) {
+            var currentQuote = [],
+                quotes = [];
+            var queryQ = [];
+            var inQuote = false;
+            for (let i = 0; i < query.length; i++) {
+                let swap = query[i] == '"';
+                if (swap) {
+                    if (inQuote) {
+                        quote.push(currentQuote);
+                        currentQuote = [];
+                        queryQ.push('"', quotes.length - 1, '"');
+                    }
+                    inQuote = !inQuote;
+                } else if (inQuote) {
+                    currentQuote.push(query[i]);
+                } else {
+                    queryQ.push(query[i]);
+                }
+            }
+            var currentParens = [],
+                parens = [];
+            var queryQP = [];
+            var inParens = 0;
+            for (let i = 0; i < queryQ.length; i++) {
+                let open = queryQ[i] == '(';
+                let close = queryQ[i] == ')';
+                if (inParens > 0 && i = queryQ.length - 1) {
+                    parens.push(currentParens);
+                    currentParens = [];
+                    queryQ.push('(', parens.length - 1, ')');
+                }
+                if (open) {
+                    inParens++;
+                } else if (close) {
+                    if (inParens > 0) {
+                        parens.push(currentParens);
+                        currentParens = [];
+                        queryQ.push('(', parens.length - 1, ')');
+                    }
+                    inParens--;
+                } else if (inQuote) {
+                    currentParens.push(queryQ[i]);
+                } else {
+                    queryQP.push(queryQ[i]);
+                }
+            }
+
+            var subResults = [];
+            for (let i = 0; i < parens.length; i++) {
+                subResults.push(SearchFor(parens[i]));
+            }
+
+            let split = queryQP.split(' ');
+            let results = [];
+            let sorts = [];
+            let descs = [];
+            for (let i = 0; i < split.length; i++) {
+                let tq = split[i].split(':');
+                if (tq.length == 1) {
+                    if (tq[0].substring(0, 1) == '!' || t.substring(0, 1) == '-') { // negation
+                        t = t.substring(1);
+                        neg = true;
+                    }
+                    if (tq[0].test('\((\d*)\)')) {
+                        results.push(subResults[parseInt(q.substring(1, q.length - 1))]);
+                        break;
+                    }
+                    let T = t[0].toLowerCase();
+                    switch (T) {
+                        case "and":
+                        case "or":
+                        case "not":
+                        case "nor":
+                        case "xor":
+                        case "nand":
+                        case "xnor":
+                            results.push(T); // I hate it
+                            break;
+                        default:
+                            break;
+                    }
+                } else {
+                    let t = tq[0],
+                        q = tq[1];
+                    let neg = false;
+                    if (t.substring(0, 1) == '!' || t.substring(0, 1) == '-') { // negation
+                        t = t.substring(1);
+                        neg = true;
+                    }
+                    let type = GetType(t);
+                    if (type == 'sort') {
+                        let query = GetQuery(type, query);
+                        sorts.push(query);
+                        descs.push(neg);
+                        break;
+                    } else {
+                        if (q.test('"(\d*)"')) {
+                            q = quotes[parseInt(q.substring(1, q.length - 1))];
+                        }
+                        let query = GetQuery(type, q);
+                        let result = GetResultsFor(type, query);
+                        if (neg) {
+                            results.push("not"); // this is definitely spaghetti
+                        }
+                        results.push(result);
+                    }
+                }
+            }
+            SimplifyResults(results);
+            for (let i = 0; i < sorts.length; i++) {
+                SortBy(sorts[i], descs[i]); // maybe do this earlier, during getting results? not sure if cheaper
+            }
+        }
+
+        function GetType(t) {
+
+        }
+
+        function GetQuery(t, q) { // abbreviations depend on query type
+
+        }
+
+        function GetResultsFor(t, q) { // returns a very long array of integers
+
+        }
+
+        function SimplifyResults(results) {
+
+        }
+
+        function EmptySearch() {
+
+        }
+
+        function SetResultsNumber(i) {
+            document.querySelector(".title").textContent = i + " results";
+        }
+
+        function SortBy(param, descending) {
+            // get the classname chapcontainer
+            let parent = document.querySelector(".results");
+
+            // create a variable and put the classes it into an array. 
+            var divs = [];
+
+            for (let i = 0; i < parent.length; ++i) {
+                divs.push(parent[i]);
+            }
+
+            // Sort the divs based on data-id. 
+            divs.sort(function(a, b) {
+                return +a.getAttribute("data-" + query) - +b.getAttribute("data-" + query);
+            });
+
+            for (let i = 0; i < divs.length; i++) {
+                parent.appendChild(divs[i]);
+            }
+        }
+
+    </script>
+
+    <script>
+        function FactionIndex(F, T, J, P, S) {
+            let i = F + T * 2 + J * 4 + P * 8 + S * 16;
+            let k = [
+                51, // C = 0
+                10, // F = 1
+                11, // T = 2
+                20, // FT = 3
+                12, // J = 4
+                21, // FJ = 5
+                24, // TJ = 6
+                30, // FTJ = 7
+                13, // P = 8
+                22, // FP = 9
+                25, // TP = 10
+                31, // FTP = 11
+                27, // JP = 12
+                33, // FJP = 13
+                36, // TJP = 14
+                40, // FTJP = 15
+                14, // S = 16
+                23, // FS = 17
+                26, // TS = 18
+                32, // FTS = 19
+                28, // JS = 20
+                34, // FJS = 21
+                37, // TJS = 22
+                41, // FTJS = 23
+                29, // PS = 24
+                35, // FPS = 25
+                38, // TPS = 26
+                42, // FTPS = 27
+                39, // JPS = 28
+                43, // FJPS = 29
+                44, // TJPS = 30
+                50 // FTJPS = 31
+            ];
+            return k[i];
+        }
+
+    </script>
+
+    <script>
+        function ToggleExpedition(checkbox) {
+            let cards = document.querySelector(".results");
+            cards.classList.toggle("showExped");
+        }
+
+        function ToggleWeight(checkbox) {
+            let cards = document.querySelector(".results");
+            cards.classList.toggle("showWeight");
+        }
+
+        function ToggleGlow(checkbox) {
+            let cards = document.querySelector(".results");
+            cards.classList.toggle("showGlow");
+        }
+
+    </script>
+
+    <script>
+        function SetExample() {
+            let searchBar = document.querySelector("#searchBar");
+            let variant = getRandomInt(6);
+            switch (variant) {
+                case 0:
+                    searchBar.placeholder = "o:revenge f:expedition";
+                    break;
+                case 1:
+                    searchBar.placeholder = "r>uncommon c:justice";
+                    break;
+                case 2:
+                    searchBar.placeholder = "o:entomb or o:corrupted";
+                    break;
+                case 3:
+                    searchBar.placeholder = "stranger -set:8";
+                    break;
+                case 4:
+                    searchBar.placeholder = "(p>=6 or t>=6) cmc<=6";
+                    break;
+                case 5:
+                    searchBar.placeholder = "influence<=FFFJJJ";
+                    break;
+                default:
+                    searchBar.placeholder = "t:hero -f:expedition";
+                    break
+            }
+        }
+
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+
+    </script>
+</head>
+
+<body onload="LoadCards();">
+    <div class="header">
+        <div class="title">
+            Scoutpower
+        </div>
+        <div class="search">
+            <input id="searchBar" type="text" onchange="Search(this.value, true);">
+            <script type="text/javascript">
+                SetExample();
+
+            </script>
+        </div>
+        <div class="options">
+            <div class="section">
+                <label for="expedLegal">show if expedition legal</label><input type="checkbox" id="expedLegal" onclick="ToggleExpedition(this);">
+            </div>
+            <div class="section">
+                <label for="draftWeight">show draft pack weight</label><input type="checkbox" id="draftWeight" onclick="ToggleWeight(this);">
+            </div>
+            <div class="section">
+                <label for="rarityGlow">show rarity glow</label><input type="checkbox" id="rarityGlow" onclick="ToggleGlow(this);">
+            </div>
+        </div>
+    </div>
+
+    <div class="results">
+
+    </div>
+
+    <div class="notResults">
+
+    </div>
+
+    <div class="end">
+        End of results.
+        <br>
+        Ctrl-A to export.
+    </div>
+</body>
+
+</html>
