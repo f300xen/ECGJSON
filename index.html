@@ -439,7 +439,7 @@
             for (let i = 0; i < queryQ.length; i++) {
                 let open = queryQ[i] == '(';
                 let close = queryQ[i] == ')';
-                if (inParens > 0 && i = queryQ.length - 1) {
+                if (inParens > 0 && i == queryQ.length - 1) {
                     parens.push(currentParens);
                     currentParens = [];
                     queryQ.push('(', parens.length - 1, ')');
@@ -465,19 +465,21 @@
                 subResults.push(SearchFor(parens[i]));
             }
 
-            let split = queryQP.split(' ');
+            let split = queryQP.join().split(' ');
             let results = [];
             let sorts = [];
             let descs = [];
+            const pTest = new RegExp('\((\d*)\)');
+            const qTest = new RegExp('"(\d*)"');
             for (let i = 0; i < split.length; i++) {
                 let tq = split[i].split(':');
                 if (tq.length == 1) {
-                    if (tq[0].substring(0, 1) == '!' || t.substring(0, 1) == '-') { // negation
-                        t = t.substring(1);
-                        neg = true;
+                    if (tq[0].substring(0, 1) == '!' || tq[0].substring(0, 1) == '-') { // negation
+                        tq[0] = tq[0].substring(1);
+                        results.push("not");
                     }
-                    if (tq[0].test('\((\d*)\)')) {
-                        results.push(subResults[parseInt(q.substring(1, q.length - 1))]);
+                    if (pTest.test(tq[0])) {
+                        results.push(subResults[parseInt(tq[0].substring(1, tq[0].length - 1))]);
                         break;
                     }
                     let T = t[0].toLowerCase();
@@ -492,6 +494,8 @@
                             results.push(T); // I hate it
                             break;
                         default:
+                            let query = GetQuery('any', t[0]);
+                            results.push(GetResultsFor('any', query));
                             break;
                     }
                 } else {
@@ -509,7 +513,7 @@
                         descs.push(neg);
                         break;
                     } else {
-                        if (q.test('"(\d*)"')) {
+                        if (qTest.test(q)) {
                             q = quotes[parseInt(q.substring(1, q.length - 1))];
                         }
                         let query = GetQuery(type, q);
