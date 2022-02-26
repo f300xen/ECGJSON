@@ -2,7 +2,7 @@
 
 Currently-incomplete Scryfall-like search engine for Eternal Card Game, utilizes heavy image hotlinking (sorry, developer of EternalWarcry).
 
----
+## Questions (non-frequent)
 
 **Q:** What's complete?
 
