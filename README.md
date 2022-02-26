@@ -1,6 +1,6 @@
 # ECGJSON
 
-Currently-incomplete Scryfall-like search engine for Eternal Card Game, utilizes heavy image hotlinking.
+Currently-incomplete Scryfall-like search engine for Eternal Card Game, utilizes heavy image hotlinking (sorry, developer of EternalWarcry).
 
 ---
 
