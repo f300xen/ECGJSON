@@ -4,6 +4,12 @@ Currently-incomplete Scryfall-like search engine for Eternal Card Game, utilizes
 
 ## Questions (non-frequent)
 
+**Q:** Why would you make this?
+
+**A:** I wanted a better way to view Eternal cards' draft weights.
+
+---
+
 **Q:** What's complete?
 
 **A:** You can use it as an image gallery for Eternal cards, and can view if a card is in Expedition or its weight in the Eternal Draft Pack (it's not very useful because you can't narrow its search down or sort it).
